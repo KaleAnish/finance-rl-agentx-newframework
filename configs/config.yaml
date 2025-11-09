@@ -1,0 +1,17 @@
+assets: [SPY, AAPL, MSFT]
+data:
+  window: 60
+  freq: "1D"
+costs:
+  bps: 5
+reward:
+  schedule: "linear"     # fixed | linear | cosine
+  base:
+    w_pnl: 1.0
+    w_cost: 1.0
+    w_dd: 0.2
+    w_sharpe: 0.2
+train:
+  algo: "ppo"            # ppo | sac | dqn
+  steps: 100000
+  seed: 42
