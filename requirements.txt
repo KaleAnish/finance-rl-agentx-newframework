@@ -1,0 +1,23 @@
+numpy
+pandas
+matplotlib
+tqdm
+scipy
+pyyaml
+
+# PyTorch (Colab preinstalls; pip will upgrade if needed)
+torch
+torchvision
+torchaudio
+
+# RL / DL utils
+gymnasium>=0.29
+stable-baselines3==2.3.2
+
+# Transformers (optional if you’ll use FinBERT later)
+transformers
+accelerate
+sentencepiece
+
+# Finance/data helpers (optional)
+yfinance
